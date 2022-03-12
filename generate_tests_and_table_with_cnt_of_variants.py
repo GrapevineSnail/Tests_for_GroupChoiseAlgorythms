@@ -28,8 +28,8 @@ def count_of_expert_profiles_variants(n, m):
             ( sp.factorial(sp.factorial(n)-1) * sp.factorial(m) )
 
 
-max_experts_num = 6
-max_alternatives_num = 6
+max_experts_num = 7
+max_alternatives_num = 7
 table_cnt_of_EPV = [[count_of_expert_profiles_variants(N+1, M+1) 
 for M in range(max_experts_num)]
 for N in range(max_alternatives_num)]
